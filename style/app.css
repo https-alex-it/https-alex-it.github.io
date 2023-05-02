@@ -1,0 +1,40 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+.gridTinker {
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.gridTinker iframe {
+  width: 100%;
+}
+
+.gridCont {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 90px;
+}
+
+.hero2 {
+  width: 100%;
+  height: max-content;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+

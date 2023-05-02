@@ -1,0 +1,94 @@
+:root {
+    --ff-sizePara: 1.1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#titoloPrincipale {
+  font-size: 2rem;
+  font-family: comic sans ms;
+
+  gap: 50px;
+
+  width: 100%;
+
+  text-transform: uppercase;
+  color: var(--colPrima);
+
+  margin-top: 100px;
+}
+
+#titoloPrincipale img {
+  width: 30%;
+}
+
+#introDiv {
+  margin-top: 50px;
+  padding: 10px;
+
+  text-align: justify;
+  font-size: var(--ff-sizePara);
+  font-family: calibri;
+  color: #000000;
+
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+#sketch {
+    width: 100%;
+}
+
+#sketch h1{
+    color: var(--colPrima);
+    font-family: "comic sans ms";
+    text-align: center;
+    font-weight: bold;
+}
+
+#sketch p {
+    margin-top: 20px;
+
+    text-align: left;
+    font-family: "calibri";
+    font-size: var(--ff-sizePara);
+}
+
+
+.galleria {
+    flex-direction: column;
+    margin: 10px;
+    gap: 20px;
+}
+
+#div1 img,
+#div2 img {
+    width: 40%;
+}
+
+#div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: "comic sans ms";
+    color: var(--colPrima);
+}
+
+#div3 {
+    flex-direction: column;
+}
+#div3 h1 {
+    font-size: 2rem;
+}
+
